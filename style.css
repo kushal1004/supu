@@ -1,7 +1,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');*/
-
+@media only screen and (max-width: 768px) {
 body{
-    background: linear-gradient(to right, #2b5876, #4e4376);
+   /* background: linear-gradient(to right, #2b5876, #4e4376);*/
     overflow: hidden;
     font-family: 'Roboto Slab', serif;
 }
@@ -167,7 +167,6 @@ span{
 .btn:hover{
     scale: 105%;
 }
-/*
 @keyframes anim{
     from{
         opacity: 0;
@@ -178,7 +177,7 @@ span{
         transform: translate(0,0);
         filter:blur(0);
     }
-}*/
+}
 .buttons{
     position: absolute;
     left: 550px;
@@ -199,4 +198,4 @@ span{
 .buttons button:hover{
     background-color: #e29578;
 }
-  
+}  
