@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');*/
 
 body{
     background: linear-gradient(to right, #2b5876, #4e4376);
@@ -167,7 +167,7 @@ span{
 .btn:hover{
     scale: 105%;
 }
-
+/*
 @keyframes anim{
     from{
         opacity: 0;
@@ -178,7 +178,7 @@ span{
         transform: translate(0,0);
         filter:blur(0);
     }
-}
+}*/
 .buttons{
     position: absolute;
     left: 550px;
