@@ -19,49 +19,49 @@
     <div class="container">
         
         <div id="slide">
-            <div class="item" style = "background-image: url(./images/1.jpg);">
+            <div class="item" style = "background-image: url(1.jpg);">
                 <div class="content">
                     <div class="name">Supriti<span>💖 </span></div>
                     <button class="btn"onclick="playPauseAudio()">Happy Birthday</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(./images/2.jpg);">
+            <div class="item" style="background-image: url(2.jpg);">
                 <div class="content">
                     <div class="name">Supriti<span>💖 </span></div>
                     <button class="btn"onclick="playPauseAudio()">Happy Birthday</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(./images/3.jpg);">
+            <div class="item" style="background-image: url(3.jpg);">
                 <div class="content">
                     <div class="name">Supriti<span>💕 </span></div>
                     <button class="btn"onclick="playPauseAudio()" >Happy Birthday</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(./images/4.jpg);">
+            <div class="item" style="background-image: url(4.jpg);">
                 <div class="content">
                     <div class="name">Supriti<span>💗</span></div>
                     <button class="btn"onclick="playPauseAudio()">Happy Birthday</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(./images/5.jpg);">
+            <div class="item" style="background-image: url(5.jpg);">
                 <div class="content">
                     <div class="name">Supriti<span>💓</span></div>
                     <button class="btn"onclick="playPauseAudio()">Happy Birthday</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(./images/6.jpg);">
+            <div class="item" style="background-image: url(6.jpg);">
                 <div class="content">
                     <div class="name">Supriti<span>💝</span></div>
                     <button class="btn"onclick="playPauseAudio()">Happy Birthday</button>💞
                 </div>
             </div>
-            <div class="item" style="background-image: url(./images/7.jpg);">
+            <div class="item" style="background-image: url(7.jpg);">
                 <div class="content">
                     <div class="name">Supriti<span>💘</span></div>
                     <button class="btn"onclick="playPauseAudio()" >Happy Birthday</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(./images/8.jpg);">
+            <div class="item" style="background-image: url(8.jpg);">
                 <div class="content">
                     <div class="name">Supriti <span></span></div>
                     <button class="btn"onclick="playPauseAudio()">Happy Birthday</button>
@@ -74,29 +74,7 @@
         </div>
     </div>
 
-    <script src="script.js">
-
-        let audio = new Audio('hbd.mp3');
-        let isPlaying = false;
-    
-        document.getElementById('prev').addEventListener('click', () => {
-            audio.pause();
-        });
-    
-        document.getElementById('next').addEventListener('click', () => {
-            audio.pause();
-        });
-    
-        document.querySelector('.btn').addEventListener('click', () => {
-            if (!isPlaying) {
-                audio.play();
-                isPlaying = true;
-            } else {
-                audio.pause();
-                isPlaying = false;
-            }
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
 
