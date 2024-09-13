@@ -77,12 +77,14 @@ h3{
 .item{
     width:180px;
     height:280px;
-    background-position: 50% 50%;
+    background-position: 40% 45%;
     display: inline-block;
-    transition: 0.5s;
+    transition: 0.7s;
     background-size: cover;
     position: absolute;
     z-index: 1;
+    border-bottom: 10%;
+    background-image: 10%;
     top:50%;
     transform: translate(0,-50%);
     border-radius: 20px;
