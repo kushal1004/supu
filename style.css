@@ -76,11 +76,10 @@ h3{
 .item{
     width:180px;
     height:280px;
-    background-position: 40% 45%;
-    background-position-x: left;
+    background-position: 100% 100%;
+    background-position:center;
     display: inline-block;
     transition: 0.7s;
-    background-size: cover;
     position: absolute;
     z-index: 1;
     border-bottom: 10%;
@@ -92,7 +91,7 @@ h3{
 }
 .item:nth-child(1),
 .item:nth-child(2){
-    left:-10%;
+    left:-20%;
     top:5%;
     transform: translate(0,0);
     border-radius: 0;
@@ -120,8 +119,8 @@ h3{
 .item .content{
     position: absolute;
     top:80%;
-    left:10px;
-   left:10%;
+    left:25px;
+   left:20%;
     width:300px;
     text-align: left;
     padding:2rem;
