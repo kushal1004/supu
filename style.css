@@ -70,7 +70,7 @@ h3{
 .item{
     width:180px;
     height:280px;
-    background-position:  10% 10% ;
+    background-position:  100% 100% ;
     background-position: center;
     display: inline-block;
     transition: 0.7s;
