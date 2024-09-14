@@ -112,8 +112,8 @@ h3{
 }
 .item .content{
     position: absolute;
-    top:55%;
-    left:40%;
+    top:65%;
+    left:60%;
     width:300px;
     text-align: left;
     padding:2rem;
@@ -132,9 +132,9 @@ span{
     z-index: 11111;
 }
 .item .name{
-    font-size: 60px;
+    font-size: 40px;
     left:20%;
-    font-weight: 900;
+    font-weight: 700;
     opacity: 0;
     animation:anim 1s ease-in-out 1 forwards
 }
@@ -145,7 +145,7 @@ span{
     left:20%;
     border:none;
     opacity: 0;
-    font-size: 18px;
+    font-size: 16px;
     outline: none;
     border-radius: 15px;
     background: linear-gradient(45deg, #0f4c5c, #e29578, #0f4c5c);
