@@ -65,14 +65,15 @@ h3{
     box-shadow: 0 10px 20px #dbdbdb;
 }
 #slide{
-    width:20px;
-    margin-top:40px;
+    width:17px;
+    margin-top:35px;
 }
 .item{
-    width:180px;
-    height:280px;
+    width:150px;
+    height:250px;
     background-position:  100% 100% ;
     background-position: center;
+    background-size:cover;
     display: inline-block;
     transition: 0.7s;
     position: absolute;
@@ -132,6 +133,7 @@ span{
 }
 .item .name{
     font-size: 60px;
+    left:20%;
     font-weight: 900;
     opacity: 0;
     animation:anim 1s ease-in-out 1 forwards
@@ -140,6 +142,7 @@ span{
 .btn{
     padding:0.6rem 1.5rem;
     margin-top: 2rem;
+    left:20%;
     border:none;
     opacity: 0;
     font-size: 18px;
