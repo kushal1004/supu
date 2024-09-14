@@ -59,7 +59,7 @@ h3{
     top:23%;
     transform: translate(-50%,-50%);
     width:206%;
-    height:121%;
+    height:135%;
     background-color: #f5f5f5;
     box-shadow: 0 10px 20px #dbdbdb;
 }
@@ -77,7 +77,7 @@ h3{
     transition: 0.7s;
     position: absolute;
     z-index: 1;
-    top:70%;
+    top:71%;
     transform: translate(0,-50%);
     border-radius: 20px;
     box-shadow:  0 10px 20px #505050;
