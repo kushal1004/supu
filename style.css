@@ -69,8 +69,8 @@ h3{
     margin-top:35px;
 }
 .item{
-    width:150px;
-    height:250px;
+    width:190px;
+    height:290px;
     background-position:  100% 100% ;
     background-position: center;
     background-size:cover;
@@ -134,7 +134,7 @@ span{
 .item .name{
     font-size: 40px;
     left:20%;
-    font-weight: 700;
+    font-weight: 70;
     opacity: 0;
     animation:anim 1s ease-in-out 1 forwards
 }
@@ -150,7 +150,7 @@ span{
     border-radius: 15px;
     background: linear-gradient(45deg, #0f4c5c, #e29578, #0f4c5c);
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 50;
     animation:anim 1s ease-in-out 0.6s 1 forwards;
     transition: all 0.5s ease;
     cursor: pointer;
