@@ -142,6 +142,7 @@ span{
 .item .name{
     font-size: 60px;
     font-weight: 900;
+    left:15%;
     opacity: 0;
     animation:anim 1s ease-in-out 1 forwards
 }
@@ -149,6 +150,7 @@ span{
 .btn{
     padding:0.6rem 1.5rem;
     margin-top: 2rem;
+    left:15%;
     border:none;
     opacity: 0;
     font-size: 18px;
@@ -189,7 +191,8 @@ span{
 }
 .buttons button{
     width:50px;
-   top:100%;
+    top:100%;
+    left:50%;
     height:50px;
     border-radius: 50%;
     border:1px solid #555;
