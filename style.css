@@ -63,9 +63,9 @@ h3{
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-    width:100vw;
+   /* width:100vw;
     height:98vh;
-    padding:50px;
+    padding:50px;*/
     background-color: #f5f5f5;
     box-shadow: 0 10px 20px #dbdbdb;
 }
@@ -78,6 +78,7 @@ h3{
     height:280px;
     background-position: 100% 100%;
     background-position:center;
+    background-size:cover;
     display: inline-block;
     transition: 0.7s;
     position: absolute;
